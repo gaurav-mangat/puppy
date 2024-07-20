@@ -2,18 +2,17 @@ package puppy
 
 import "github.com/gaurav-mangat/dog"
 
-func Bark() string  {
+func Bark() string {
 	return "Woof!"
 }
 
-func Barks() string{
+func Barks() string {
 	return "Woof! Woof! Woof!"
 }
 
-func BigBark string()
-{
-return dog.WhenGrownUp(Bark())
+func BigBark() string {
+	return dog.WhenGrownUp(Bark())
 }
-func BigBarks string(){
+func BigBarks() string {
 	return dog.WhenGrownUp(Barks())
-	}
+}
